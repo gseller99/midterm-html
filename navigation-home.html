@@ -1,0 +1,38 @@
+<!-- Navigation
+In this text, create 5 html files. In each file, create a top navigation section that has links to "home", "products", "services", "blog", and "contact us" and link each of those links to a similarly named file. This top navigation should be at the top of every page. Create 20 paragraphs of text in the "blog" page with each paragraph representing one blog. Give each paragraph a visually different title of that post. On the home page, create a link that when clicked takes you to the 15th post/paragraph on the "blog" page. Ensure that you can navigate from any page to any page. Answer was separate pages identified with .html Home page had a link that was an href .html#id the blog page that it linked to was anchor page with and id -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Midterm-HTML-Home Page</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <section>
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="navigation-home.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Navigation Pages/products-page.html">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Navigation Pages/services-page.html">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Navigation Pages/blog-page.html">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Navigation Pages/contact-us-page.html">Contact Us</a>
+            </li>
+        </ul>
+    </section>
+    <header>
+        <h1>Home</h1>
+    </header>
+    <main>
+        <a href="Navigation Pages/blog-page.html#blog-15">Blog 15</a>
+    </main>
+</body>
+</html>
